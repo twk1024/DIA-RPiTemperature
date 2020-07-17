@@ -42,7 +42,7 @@ class raspi extends PluginBase implements Listener {
 
 	public function onEnable() : void{
 	    self::$instance = $this;
-        $this->getLogger()->info(TextFormat::GREEN . "DIA-Raspi 활성화 완료 - Made by 도끼다이아");
+        $this->getLogger()->info(TextFormat::GREEN . "DIA-RaspiTemp 활성화 완료 - Made by 도끼다이아");
 
 	}
 	
