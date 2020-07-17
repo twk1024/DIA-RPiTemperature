@@ -6,4 +6,4 @@ author: dokidia
 
 commands:
   온도:
-    description: 다이아서버 서버컴 CPU 온도를 확인합니다
+    description: 다이아서버 라즈베리파이 CPU 온도를 확인합니다
