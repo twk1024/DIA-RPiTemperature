@@ -27,12 +27,6 @@ use pocketmine\math\Vector3;
 use pocketmine\utils\TextFormat;
 use pocketmine\utils\Config;
 
-use jojoe77777\FormAPI;
-
-use dokidia\raspi; 
-
-use onebone\economyapi\EconomyAPI;
-
 class raspi extends PluginBase implements Listener {
 
     /** @var raspi $instance */
@@ -59,7 +53,7 @@ class raspi extends PluginBase implements Listener {
         return true;
     }
     
-    // 튜토리얼 1페이지
+
     public function raspi($player){
         $temp = system("cat /sys/class/thermal/thermal_zone0/temp");
         $temp2 = $temp * 1/1000;
